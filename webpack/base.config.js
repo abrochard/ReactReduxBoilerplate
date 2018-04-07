@@ -1,5 +1,5 @@
 module.exports = {
-  entry: __dirname + '/app/index.js',
+  entry: __dirname + '/../app/index.js',
   module: {
     loaders: [
       {
@@ -29,6 +29,6 @@ module.exports = {
   },
   output: {
     filename: 'index.js',
-    path: __dirname + '/public'
+    path: __dirname + '/../public'
   }
 };
